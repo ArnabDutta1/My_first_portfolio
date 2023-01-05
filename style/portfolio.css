@@ -121,7 +121,7 @@ nav{
     font-size: 20px;
     font-weight: 700;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .skill-description{
     color: #757575;
@@ -129,4 +129,31 @@ nav{
 .resume{
     margin-top: 130px;
     text-align: center;
+}
+/* resume section */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .sub-title{
+color: #757575;
+font-weight: 600;
+font-size: 20px;
+margin: 20px;
+}
+.resume .description{
+color: #757575;
+}
+.resume-button{
+    margin-top: 50px;
 }
